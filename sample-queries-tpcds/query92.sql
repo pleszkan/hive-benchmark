@@ -1,3 +1,4 @@
+INSERT OVERWRITE DIRECTORY "${hivevar:outputDir}"
 -- start query 1 in stream 0 using template query92.tpl and seed 2031708268
 select  
    sum(ws_ext_discount_amt)  as `Excess Discount Amount` 

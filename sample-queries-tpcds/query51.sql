@@ -1,3 +1,4 @@
+INSERT OVERWRITE DIRECTORY "${hivevar:outputDir}"
 -- start query 1 in stream 0 using template query51.tpl and seed 1819994127
 WITH web_v1 as (
 select

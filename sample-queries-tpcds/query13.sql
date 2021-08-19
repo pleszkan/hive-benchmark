@@ -1,3 +1,4 @@
+INSERT OVERWRITE DIRECTORY "${hivevar:outputDir}"
 -- start query 1 in stream 0 using template query13.tpl and seed 622697896
 select avg(ss_quantity)
        ,avg(ss_ext_sales_price)

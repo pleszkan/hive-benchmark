@@ -1,3 +1,4 @@
+INSERT OVERWRITE DIRECTORY "${hivevar:outputDir}"
 -- start query 1 in stream 0 using template query41.tpl and seed 1581015815
 select  distinct(i_product_name)
  from item i1
